@@ -1,9 +1,11 @@
 package main
 
+import "github.com/siddontang/go-log/log"
+
 func main() {
 	var nums, target = []int{3, 2, 4}, 6
 
-	twoSum1(nums, target)
+	log.Println(twoSum1(nums, target))
 }
 
 // twosum3의 과정 3 2 4에 6인경우
