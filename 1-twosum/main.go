@@ -1,6 +1,6 @@
 package main
 
-import "github.com/siddontang/go-log/log"
+import "log"
 
 func main() {
 	var nums, target = []int{3, 2, 4}, 6
